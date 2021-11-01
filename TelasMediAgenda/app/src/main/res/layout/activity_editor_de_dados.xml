@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Editor_de_dados">
+
+    <TextView
+        android:id="@+id/texto_usuario2"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:text="Carlos R. S."
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <TextView
+        android:id="@+id/texto_senha2"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:text="********"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <TextView
+        android:id="@+id/texto_email2"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:text="carlos.rs@gmail.com"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <TextView
+        android:id="@+id/texto_endereco2"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:text="Rua Pedro II, São Paulo"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/texto_cpf2"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:text="555.555.555-55"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <TextView
+        android:id="@+id/texto_cartaoSus2"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:text="012 3456 7890 9876"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <TextView
+        android:id="@+id/lable_nome2"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:text="Nome:"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/lable_usuario2"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:text="Usuário:"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <TextView
+        android:id="@+id/lable_senha2"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:text="Senha:"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <TextView
+        android:id="@+id/lable_email2"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:text="E-mail:"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <TextView
+        android:id="@+id/lable_endereco2"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:text="Endereço:"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/lable_cpf2"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:text="CPF:"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <TextView
+        android:id="@+id/lable_cartaosus2"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:text="Cartão Sus:"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <Button
+        android:id="@+id/botao_retornarMenu"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="684dp" />
+
+    <TextView
+        android:id="@+id/lable_editarDados"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:text="Editar dados"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/botao_atualizarDados"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Atualizar"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <TextView
+        android:id="@+id/Texto_nome2"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:text="Carlos Rodrigues Souza"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="100dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

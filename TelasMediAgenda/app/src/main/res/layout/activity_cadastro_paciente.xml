@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cadastro_paciente">
+
+    <TextView
+        android:id="@+id/lable_senha"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:text="Senha:"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <TextView
+        android:id="@+id/lable_email"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:text="E-mail:"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <TextView
+        android:id="@+id/lable_endereco"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:text="Endereço:"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/lable_cpf"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:text="CPF:"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <TextView
+        android:id="@+id/lable_cartaosus"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:text="Cartão Sus:"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <TextView
+        android:id="@+id/lable_usuario"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="46dp"
+        android:text="Usuário:"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/Texto_usuario"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <Button
+        android:id="@+id/botao_CadastroRealizado"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Pronto"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="627dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Cadastrar-se"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/lable_nome"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:text="Nome:"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <EditText
+        android:id="@+id/Texto_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <EditText
+        android:id="@+id/Texto_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginEnd="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <EditText
+        android:id="@+id/Texto_email"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <EditText
+        android:id="@+id/Texto_endereco"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <EditText
+        android:id="@+id/Texto_cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <EditText
+        android:id="@+id/Texto_cartaosus"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="251dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

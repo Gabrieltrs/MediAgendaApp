@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Area_consultas">
+
+    <TextView
+        android:id="@+id/lable_horarioMarcado"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="15:30"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <TextView
+        android:id="@+id/lable_area"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:text="Área de Consultas"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/lable_responsável"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:text="Responsável"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/lable_nomeResponsavel"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:text="Leonardo M."
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <TextView
+        android:id="@+id/lable_horario"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Horário"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Button
+        android:id="@+id/botao_cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/botao_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="694dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

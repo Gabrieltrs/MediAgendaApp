@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lableLogin"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:password="false"
+        android:text="Login"
+        android:visibility="visible"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/botao_confirmaLogin"
+        android:layout_width="150dp"
+        android:layout_height="47dp"
+        android:text="Confirmar"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <Button
+        android:id="@+id/botao_cadastrar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar-se"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <TextView
+        android:id="@+id/lable_usuarioLogin"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:text="Usuário:"
+        android:visibility="visible"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:text="Senha:"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <EditText
+        android:id="@+id/texto_usuario"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
